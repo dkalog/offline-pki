@@ -17,15 +17,25 @@ This repository can be used as a Flake.
 
 ### Without Nix
 
-Create a virtualenv and execute `pip install`:
+Create a virtualenv  install dev-dependencies and execute `pip install `
+
+#### Linux (Debian-based distributions)
+```console
+$ sudo apt install swig libu2f-udev pcscd libpcsclite-dev
+
+#### Linux (RPM-based distributions)
+```console
+$ sudo dnf install pcsc-lite-devel python3-devel swig
+
+and then execute `pip install`:
 
 ```console
 $ python -m venv .venv
-$ source .venv/bin/active
+$ source .venv/bin/activate
+$
 $ pip install .
 ```
 
-You may need `libpcsclite-dev` package.
 
 ### Image creation
 
