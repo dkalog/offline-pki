@@ -22,10 +22,12 @@ Create a virtualenv  install dev-dependencies and execute `pip install `
 #### Linux (Debian-based distributions)
 ```console
 $ sudo apt install swig libu2f-udev pcscd libpcsclite-dev
+```
 
 #### Linux (RPM-based distributions)
 ```console
 $ sudo dnf install pcsc-lite-devel python3-devel swig
+```
 
 and then execute `pip install`:
 
