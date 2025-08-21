@@ -87,10 +87,10 @@ For the root certificate, you can customize the subject name with the
 subject-name (`CN=Intermediate CA` by default) and it will merge the missing
 attributes from the root certificate. Therefore, by using the following
 commands, the intermediate certificate will have `CN=Intermediate CA,O=Your
-Organization,OU=Secret Unit,C=FR` as a subject name.
+Organization,OU=Secret Unit,C=GR` as a subject name.
 
 ```console
-$ offline-pki certificate root --subject-name "CN=Root CA,O=Your Organization,OU=Secret Unit,C=FR"
+$ offline-pki certificate root --subject-name "CN=Root CA,O=Sch,OU=Content Filtering,C=GR"
 $ offline-pki certificate intermediate
 ```
 
