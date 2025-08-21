@@ -17,7 +17,7 @@ This repository can be used as a Flake.
 
 ### Without Nix
 
-Create a virtualenv  install dev-dependencies and execute `pip install `
+1) Install dev-dependencies, 2 Create virtual environment and finally 3) execute `pip install `
 
 #### Linux (Debian-based distributions)
 ```console
